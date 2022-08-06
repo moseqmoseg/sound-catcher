@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap");
+
+.status {
+  font-weight: 800;
+  font-size: 70px;
+  color:#6EBF8B;
+  text-align: center;
+}
+.mainRecorder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.transport {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0em 1em;
+  grid-template-areas: ". .";
+  margin-bottom: 2em;
+}
+
+.recordingBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  list-style-type: none;
+  padding: 0;
+}
+
+.recordingBox > * {
+  display: flex;
+  background-color: transparent;
+  margin-bottom: 1em;
+ 
+}

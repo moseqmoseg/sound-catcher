@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^1.0.0-beta.1",
+    "@nextui-org/react": "^1.0.0-beta.9",
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-media-recorder": "^1.6.6"
   },
   "devDependencies": {
     "eslint": "8.21.0",
